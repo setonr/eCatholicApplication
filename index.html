@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
-<title>Seton's Application</title>
+<title>Seton Raynor's Cover Letter Site</title>
 <link rel="icon" href="./assets/images/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Yellowtail|Dosis" rel="stylesheet">
 <link rel="stylesheet" href="./assets/css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <body>
 
-  <nav id="nav">
-    <h1 id="masthead">Seton Raynor</h1>
-    <a href="https://github.com/setonr" target="_blank"><img src="./assets/images/gitHub.png" height="60px" width="60px"></a>
-    <a href="https://www.linkedin.com/in/seton-raynor/" target="_blank"><img src="./assets/images/linked.png" height="60px" width="60px"></a>
-  </nav>
+  
+    <nav id="nav">
+      <div id="overlay">
+        <h1 id="masthead">Seton Raynor</h1>
+      </div>
+    </nav>
+  
 
   <br>
 
   <div id="wrapper">
     <div class="row">
       <div class="col-12 contentDiv">
+
+        <div id="connect">
+          <a href="https://github.com/setonr" target="_blank"><img src="./assets/images/gitHub.png" height="80px" width="80px"></a>
+          <a href="https://www.linkedin.com/in/seton-raynor/" target="_blank"><img src="./assets/images/linked.png" height="80px" width="80px"></a>
+        </div>
 
         <div class="tab">
           <button class="tablinks" onclick="openTab(event, 'Motivation')" id="defaultOpen">My Motivation and Passion</button>
@@ -27,17 +35,17 @@
         </div>
 
         <div id="Motivation" class="tabcontent">
-          <p>Not only am I passionate about creating beautiful and user-friendly UX/UI, I am also passionate about our Church. The opportunity to bring my creativity, enthusiasm, positivity,flexibility, and knack for organization to a technical role that is focused on Catholic service and faith would be the ultimate blend of my strengths and interests.</p>
-          <p>I am most motivated by my desire to improve our world, and I believe that can be accomplished simply by treating others with respect and dignity and by helping and serving them whenever possible. I attended Catholic school from pre-kindergarten through high school, and the focus on service and self-sacrifice helped shape me into the person I am today. My husband Aaron and I met as volunteers at our parish Vacation Bible School (St. Thomas More in Chapel Hill, North Carolina—one of your clients!) and were both Teaching Fellows at the University of North Carolina at Chapel Hill. He will continue his career as a high school history teacher as I transition into web development.</p>
+          <p>Not only am I passionate about creating beautiful and user-friendly UX/UI, I am also passionate about our Church. The opportunity to bring my creativity, enthusiasm, positivity, flexibility, and knack for organization to a technical role that is focused on Catholic service and faith would be the ultimate blend of my strengths and interests.</p>
+          <p>I am most motivated by my desire to improve our world, and I believe that can be accomplished simply by treating others with respect and dignity and by helping and serving them whenever possible. I attended Catholic school from pre-kindergarten through high school, and the focus on service and self-sacrifice helped shape me into the person I am today. My husband Aaron and I met as volunteers at our parish Vacation Bible School (St. Thomas More in Chapel Hill, North Carolina—one of your clients!) and were both North Carolina Teaching Fellows at the University of North Carolina at Chapel Hill. He will continue his career as a high school history teacher as I transition into web development.</p>
 
           <div class="pictures">
             <figure id="picture1">
               <img src="./assets/images/wedding.jpg" width="300px" height="auto" alt="wedding photo">
-              <figcaption class="caption">On our wedding day: August 3, 2013!</figcaption>
+              <figcaption class="caption">On our wedding day: August 3, 2013!<br><br><br></figcaption>
             </figure>
             <figure id="picture2">
               <img src="./assets/images/aaronAndSeton.jpg" width="400px" height="auto" alt="Mother Cabrini shrine">
-              <figcaption class="caption">At the Mother Cabrini Shrine in Golden, Colorado, last summer.</figcaption>
+              <figcaption class="caption">At the Mother Cabrini Shrine in Golden, Colorado, last summer.<br><br></figcaption>
             </figure>
           </div>
         </div>
@@ -68,8 +76,17 @@
     </div>
   </div>
 
-  <footer>
-  </footer>
+  <div id="myModal" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>I was thrilled to learn about your search for a CSS web developer at eCatholic. When I read in the job listing that I could use any medium for the application, I was inspired to do something special to tell you about myself!</p>
+      <p>Welcome to my cover letter site!</p>
+    </div>
+
+  </div>
+
+  <footer>GitHub Repo for this Site: <a href="https://github.com/setonr/eCatholicApplication" target="_blank">Click here!</a></footer>
 
 
 <script src="./assets/js/app.js"></script>
