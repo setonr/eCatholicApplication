@@ -204,10 +204,6 @@ footer {
 	#wrapper {
 		margin-top:40%;
 	}
-	
-	.tablinks {
-		width:100%;
-	}
 }
 
 @media (max-width: 660px) {
@@ -232,30 +228,8 @@ footer {
 
 @media (max-width: 580px) {
 
-	#nav {
-		font-size:40px;
-	}
-
 	#wrapper {
-		margin-top:50%;
-	}
-
-	#overlay {
-		padding-left:0px;
-	}
-
-	.pictures {
-		text-align:center;
-	}
-
-	#picture2 {
-		padding-left:0px;
-		width:300px;
-		height:auto;
-	}
-
-	.modal-content {
-		width:80%;
+		margin-top:45%;
 	}
 }
 
@@ -265,22 +239,8 @@ footer {
 		margin-top:50%;
 	}
 
-	#overlay {
-		padding-left:0px;
-	}
-
-	.pictures {
-		text-align:center;
-	}
-
-	#picture2 {
-		padding-left:0px;
-		width:300px;
-		height:auto;
-	}
-
-	.modal-content {
-		width:80%;
+	#nav {
+		font-size:40px;
 	}
 }
 
