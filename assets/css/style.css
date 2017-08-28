@@ -232,7 +232,29 @@ footer {
 @media (max-width: 580px) {
 
 	#wrapper {
-		margin-top:45%;
+		margin-top:20%;
+	}
+
+	#nav {
+		text-align:center;
+		height:40%;
+	}
+
+	.overlay {
+		height:40%;
+	}
+
+	.tabcontent {
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	.tablinks {
+		width:100%;
+	}
+
+	.pictures {
+		margin-left:0px;
 	}
 }
 
