@@ -239,8 +239,22 @@ footer {
 		margin-top:50%;
 	}
 
-	#nav {
-		font-size:40px;
+	#overlay {
+		padding-left:0px;
+	}
+
+	.pictures {
+		text-align:center;
+	}
+
+	#picture2 {
+		padding-left:0px;
+		width:300px;
+		height:auto;
+	}
+
+	.modal-content {
+		width:80%;
 	}
 }
 
