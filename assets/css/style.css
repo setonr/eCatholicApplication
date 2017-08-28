@@ -51,7 +51,7 @@
     left: 0px;
     background: rgba(0, 0, 0, 0.2);
     border-radius:15px;
-    padding-right:50px;
+    padding-left:50px;
 }
 
 #nav {
@@ -65,7 +65,7 @@
 	font-weight:bold;
 	font-size:50px;
 	color:white;
-	text-align:right;
+	text-align:left;
 	background-image:url("./../images/header2.png");
 	border-style: solid;
     border-width: 2px;
@@ -153,16 +153,20 @@ div.tab button.active {
 
 #picture1 {
 	float:left;
+	padding-right:10px;
 }
 
 #picture2 {
 	float:left;
+	padding-left:10px;
 }
 
 .pictures {
-	margin-left:20%;
-	margin-bottom:20px;
+	width:100%;
+	text-align:center;
+	margin-left:25%;
 }
+
 
 footer {
 	height:40px;
@@ -182,7 +186,7 @@ footer {
 
 
 
-//Media Queries
+/*Media Queries*/
 
 @media (max-width : 1160px) {
 	
@@ -246,11 +250,11 @@ footer {
 @media (max-width: 400px) {
 
 	#wrapper {
-		margin-top:80%;
+		margin-top:90%;
 	}
 
 	#overlay {
-		padding-right:0px;
+		padding-left:0px;
 	}
 
 	.pictures {
