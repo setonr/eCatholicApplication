@@ -66,7 +66,7 @@
 	font-size:50px;
 	color:#EEEED8;
 	text-align:right;
-	background-image:url("./../images/header2.png");
+	background-image:url("./../images/header.png");
 	border-style: solid;
     border-width: 10px;
     border-color: black;
@@ -211,7 +211,6 @@ footer {
 	}
 
 	.overlay {
-		padding-top:5px;
 		height:40%;
 	}
 
