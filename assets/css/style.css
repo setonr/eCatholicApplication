@@ -229,7 +229,8 @@ footer {
 	}
 }
 
-@media (max-width: 580px) {
+@media (max-width: 580px)
+	and (orientation: portrait) {
 
 	#wrapper {
 		margin-top:20%;
@@ -237,11 +238,6 @@ footer {
 
 	#nav {
 		text-align:center;
-		height:40%;
-	}
-
-	.overlay {
-		height:40%;
 	}
 
 	.tabcontent {
