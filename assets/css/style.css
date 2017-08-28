@@ -202,11 +202,15 @@ footer {
 @media (max-width: 720px) {
 
 	#wrapper {
-		margin-top:40%;
+		margin-top:20%;
 	}
 
 	#nav {
 		text-align:center;
+		height:40%;
+	}
+
+	.overlay {
 		height:40%;
 	}
 
