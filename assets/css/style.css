@@ -46,7 +46,7 @@
     height:30%;
     width: 100%;
     position: fixed;
-    overflow: auto;
+    overflow: hidden;
     top: 0px;
     left: 0px;
     background: rgba(0, 0, 0, 0.3);
@@ -66,11 +66,12 @@
 	font-size:50px;
 	color:white;
 	text-align:left;
-	background-image:url("./../images/header2.png");
+	background-image:url("./../images/header.png");
 	border-style: solid;
     border-width: 2px;
     border-color: black;
     border-radius:15px;
+    overflow:hidden;
 }
 
 #wrapper {
