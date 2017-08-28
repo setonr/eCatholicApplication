@@ -257,6 +257,10 @@ footer {
 		text-align:center;
 	}
 
+	#picture2 {
+		padding-left:0px;
+	}
+
 	.modal-content {
 		width:80%;
 	}
