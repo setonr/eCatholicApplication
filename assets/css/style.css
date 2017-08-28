@@ -199,7 +199,8 @@ footer {
 	}
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720px)
+	and (orientation: landscape) {
 
 	#wrapper {
 		margin-top:20%;
