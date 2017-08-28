@@ -204,6 +204,24 @@ footer {
 	#wrapper {
 		margin-top:40%;
 	}
+
+	#nav {
+		text-align:center;
+		height:40%;
+	}
+
+	.tabcontent {
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	.tablinks {
+		width:100%;
+	}
+
+	.pictures {
+		margin-left:0px;
+	}
 }
 
 @media (max-width: 660px) {
